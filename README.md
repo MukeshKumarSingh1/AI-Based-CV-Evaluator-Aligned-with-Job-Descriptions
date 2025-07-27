@@ -6,7 +6,11 @@ Built a Python application that evaluates candidate CVs against job descriptions
 Key Features:
 
 🔍 Dynamic Criteria Extraction: Automatically extracts required skills, experience range, and education from free-text job descriptions using regex and text parsing.
+
 📂 Multi-format CV Support: Parses resumes in PDF and DOCX formats.
+
 📊 Scoring System: Calculates weighted match scores based on skill overlap, years of experience, and education alignment.
+
 ⚙️ Stopword Filtering: Removes generic and irrelevant terms to improve match accuracy.
+
 🌐 Interactive Interface: Implemented with Streamlit for ease of use and fast evaluations.
