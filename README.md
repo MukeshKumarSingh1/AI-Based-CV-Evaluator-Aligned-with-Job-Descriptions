@@ -1,16 +1,23 @@
 # AI-Based-CV-Evaluator-Aligned-with-Job-Descriptions
-Description:
+Overview
+An AI-powered resume evaluation tool designed to intelligently match candidate CVs with job descriptions—streamlining hiring for e-commerce companies. Leveraging natural language processing (NLP) and semantic analysis, the system automatically understands and compares qualifications, skills, and experience from resumes against open roles, generating a match score to assist recruiters in shortlisting top candidates.
 
-Built a Python application that evaluates candidate CVs against job descriptions by extracting key skills, experience, and education criteria using regex and token-based matching. The tool accepts CVs in PDF and DOCX formats, processes them to identify relevant keywords, matches those with dynamically extracted job requirements, and computes a comprehensive match score.
+🚀 Key Features
+🧠 AI-Powered Job-Candidate Matching
+Utilizes NLP techniques to extract and semantically compare skills, experiences, and education from resumes and job descriptions—going beyond keyword matching.
+📄 Multi-Format Resume Parsing
+Supports both PDF and DOCX resumes with robust document processing capabilities.
+📊 Smart Match Scoring
+Computes a weighted match score based on semantic similarity of skills, experience relevance, and educational alignment—prioritizing the best-fit candidates.
+🧹 Noise Reduction & Context Filtering
+Applies advanced filtering to ignore generic terms and focus on meaningful, role-specific content.
+🌐 Interactive Interface for Recruiters
+Built using Streamlit, offering an intuitive UI for non-technical HR teams to upload CVs and job descriptions and receive instant evaluation results.
 
-Key Features:
-
-🔍 Dynamic Criteria Extraction: Automatically extracts required skills, experience range, and education from free-text job descriptions using regex and text parsing.
-
-📂 Multi-format CV Support: Parses resumes in PDF and DOCX formats.
-
-📊 Scoring System: Calculates weighted match scores based on skill overlap, years of experience, and education alignment.
-
-⚙️ Stopword Filtering: Removes generic and irrelevant terms to improve match accuracy.
-
-🌐 Interactive Interface: Implemented with Streamlit for ease of use and fast evaluations.
+💼 Tailored for E-Commerce Hiring
+  E-commerce businesses often need to fill diverse roles quickly—ranging from supply chain and customer service to software development and digital marketing. This tool helps by:
+  Automating early-stage resume screening
+  Ensuring alignment with role-specific requirements
+  Reducing bias and improving consistency in hiring
+  Accelerating time-to-hire while maintaining quality
+  Tech Stack: Python, AI/NLP (e.g., spaCy, transformers), Streamlit, PDF/DOCX parsing
